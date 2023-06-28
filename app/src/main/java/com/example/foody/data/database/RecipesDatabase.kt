@@ -13,4 +13,5 @@ import androidx.room.TypeConverters
 abstract class RecipesDatabase : RoomDatabase() {
 
     abstract fun recipesDao(): RecipesDao
+
 }
